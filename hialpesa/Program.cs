@@ -47,14 +47,14 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1",
         new OpenApiInfo
         {
-            Title = "Veterinary Campaign",
+            Title = "Hialpesa SA",
             Version = "v1",
-            Description = "Veterinary Campaign Platform API",
-            TermsOfService = new Uri("https://www.veterinarycampaign.com/"),
+            Description = "Hialpesa SA Platform API",
+            TermsOfService = new Uri("http://www.hialpesa.com/es/"),
             Contact = new OpenApiContact
             {
-                Name = "Certi Web",
-                Email = "contact@acme.com"
+                Name = "Hialpesa SA",
+                Email = "info@hialpesa.com"
             },
             License = new OpenApiLicense
             {
