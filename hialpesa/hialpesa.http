@@ -1,0 +1,6 @@
+@hialpesa_HostAddress = http://localhost:5160
+
+GET {{hialpesa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
